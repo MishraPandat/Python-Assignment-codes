@@ -1,0 +1,50 @@
+#Q1
+a=input("Enter 1st Number:")
+b=input("Enter 2nd Number:")
+sum=int(a)+int(b)
+print("Sum of 2 numbers is:",sum)
+
+
+
+
+#Q2
+pi=3.14
+r=input("Enter Radius:")
+sum=2*pi*int(r)*int(r)
+print("Radius of circle is:",sum)
+
+
+
+#Q3
+a=input("Enter length of cuboidf:")
+b=input("Enter breadth of cuboid:")
+c=input("Enter height of cuboid:")
+sum= float(a)*float(b)* float(c)
+print ("Area of circle is:",sum)
+
+
+
+#Q4
+p=input("Enter principal amount:")
+r=input("Enter rate of interest:")
+t=input("Enter time:")
+si=int(p)*int(r)*int(t)/100
+print ("Simple interest is:",si)
+
+
+
+
+#Q5
+import math
+a=input("Enter number:")
+sqr=math.sqrt(int(a))
+print("output is:",sqr)
+
+
+
+
+#Q6
+h=input("Enter height of triangle:")
+b=input("Entr base of triangle:")
+sum=int(h)*int(b)/2
+print("Area of traingle is:",sum)
