@@ -1,0 +1,130 @@
+#Q1
+x=int(input("Enter a number:"))
+
+if (x%2)==0:
+    print("%d is even number"%x)
+    
+else:
+    print("%d is odd number"%x)
+
+
+
+#Q2
+x=int(input("Enter a number"))
+
+if (x%5)==0:
+    print("%d is divisible"%x)
+    
+else:
+    print("%d is not divisible"%x)
+
+
+
+
+#Q3
+x=int(input("Enter a number:"))
+
+if x>0:
+    print("%d is positive"%x)
+    
+elif x<0:
+  print("%d is negative"%x)
+
+else:
+    print("%d is zero"%x)
+
+
+
+#Q4
+x=int(input("Enter number:"))
+y=int(input("Enter number:"))
+z=int(input("Enter number:"))
+
+if (x>y)and(x>z):
+    print("%d is greater"%x)
+
+elif (y>x)and(y>z):
+    print("%d is greater"%y)
+
+else:
+    print("%d is greater"%z)
+
+
+
+#Q5
+x=int(input("Enter the year:"))
+
+if x%4==0 and x%100!=0:
+    print("%d is leap year"%x)
+
+else:
+    print("%d is not a leap year"%x)
+
+
+
+
+#Q6
+x=int(input("Enter the number of month:"))
+
+if (x==1 or x==3 or x==5 or x==7 or x==8 or x==10 or x==12):
+    print("Number of days in %d are 31"%x)
+
+elif (x==2):
+    print("Number of days in %d is 28/29"%x)
+
+elif (x==4 or x==6 or x==9 or x==11):
+    print("Number of days in %d is 30"%x)
+
+else:
+    print("Sorry wrong input"%x)
+
+
+
+#Q7 Unable to solve please help me????
+
+
+
+#Q8
+my_str = input("Enter a string:")    
+words = my_str.split()   
+words.sort()    
+for word in words:  
+   print(word)  
+
+
+
+
+
+#Q9
+x=complex(input("Enter  complex number:"))
+if x.real>x.imag:
+    print("real is greater",x.real)
+
+else:
+    print("Imaginary is greater",x.imag)
+
+
+
+
+
+#Q10
+x=float(input("Enter marks:"))
+y=float(input("Enter marks:"))
+b=float(input("Enter marks:"))
+a=float(input("Enter marks:"))
+z=float(input("Enter marks:"))
+
+add=x+y+b+a+z
+total=(add/500)*100
+
+if total>90:
+    print("Total number scored is:%f \n Grade is A"%total)
+
+elif total>=80:
+    print("Total number is:%f \n Grade is B"%total)
+
+elif total<=79 and total>=65:
+    print("Student has passed %f\n grade is C"%total)
+
+elif total<33:
+    print("Try exams again.\nFailed",total)
